@@ -218,12 +218,12 @@ sourceSets {
 
 // ---------------- dynamic tasks to run demos ------------------
 
-new File('src/demo/groovy/demo').eachFileMatch(~/.*Demo.groovy/) { file ->
-    def demoClassName = file.name - '.groovy'
-    task "run$demoClassName"(type: org.javamodularity.moduleplugin.tasks.ModularJavaExec) {
-        group = "Demo"
-        description = "Run the $demoClassName program"
-        main = "groovyfx.demo/demo.$demoClassName"
-    }
-}
+//new File('src/demo/groovy/demo').eachFileMatch(~/.*Demo.groovy/) { file ->
+//    def demoClassName = file.name - '.groovy'
+//    task "run$demoClassName"(type: org.javamodularity.moduleplugin.tasks.ModularJavaExec) {
+//        group = "Demo"
+//        description = "Run the $demoClassName program"
+//        main = "groovyfx.demo/demo.$demoClassName"
+//    }
+//}
 

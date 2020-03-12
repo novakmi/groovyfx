@@ -1,13 +1,18 @@
 = GroovyFx
 :version: 11.0.0-SNAPSHOT
 :project-name: groovyfx
-:branch: master
+:branch: eetlite
 
 image:http://img.shields.io/travis/groovyfx-project/{project-name}/{branch}.svg["Build Status", link="https://travis-ci.org/groovyfx-project/{project-name}"]
 image:http://img.shields.io/coveralls/groovyfx-project/{project-name}/{branch}.svg["Coverage Status", link="https://coveralls.io/r/groovyfx-project/{project-name}"]
 image:http://img.shields.io/badge/license-ASF2-blue.svg["Apache License 2", link="http://www.apache.org/licenses/LICENSE-2.0.txt"]
 
 == Build instructions
+
+This is my modified groovyfx for my eetliteFx project. Needed until original groovyfx for JDK 11
+is released and integrates well.
+
+build `gradle clean assemble`
 
 === Building with Gradle shell command line
 
